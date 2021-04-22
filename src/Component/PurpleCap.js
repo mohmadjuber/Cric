@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import NewCard from './Card/NewCard';
-import data from '../data.json';
+import DataContext from './DataContext';
 const PurpleCap = () => {
+    const playersData = useContext(DataContext);
+    console.log("context", playersData);
     let scoresArray = [];
-        const bowlers = data.map((player) => {
+        const bowlers = playersData.map((player) => {
             let economy_rate = 0, bowling_avg = 0,total_wickets = 0, total_overs = 0, total_runs_given = 0;
             const scores = player.performances.map((performance) => {
                 
@@ -23,7 +25,15 @@ const PurpleCap = () => {
             });
             return player;
         })
-        const topBowlers = scoresArray.sort(function(a,b){ return b.wickets - a.wickets})
+        const topBowlers = scoresArray.sort(function(a,b){ 
+           if(a.wickets > b.wickets) return -1;
+           if(a.wickets < b.wickets) return 1;
+           if(a.wickets === b.wickets) {
+               if(a.economy > b.economy) return 1;
+               if(a.economy < b.economy) return -1;
+           }
+           return 0;
+        })
         const top10 = topBowlers.slice(0,10);
     return(
         <div style={{background : 'purple'}}><h1>Purple Cap</h1>

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import NewCard from './Card/NewCard';
-import data from '../data.json';
+import DataContext from './DataContext';
 const OrangeCap = () => {
     const orange = 'orange';
+    const data = useContext(DataContext);
     let scoresArray = [];
         const HighestScore = data.map((player) => {
             let total_runs = 0, total_ball_played = 0, total_fours = 0, total_sixes = 0, battingAvg = 0, strikerate= 0;

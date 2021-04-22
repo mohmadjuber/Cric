@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import NewCard from './Card/NewCard';
-import data from '../data.json';
+import DataContext from './DataContext';
 const MostSixers = () => {
+    const data = useContext(DataContext);
     let scoresArray = [];
+    let trialArray = [];
+        const trial = data.map((abc) => {
+            if(abc.team === 'Mumbai Indians'){
+                trialArray.push(abc);
+            }
+            return trialArray;
+        });
+        console.log("Trial Array", trialArray);
         const sixes = data.map((player, index) => {
             let total_sixes = 0;
             const scores = player.performances.map((performance) => {

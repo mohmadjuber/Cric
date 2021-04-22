@@ -1,11 +1,11 @@
-import React from 'react';
-import Card from './Card/Card';
-import data from '../data.json';
+import React, { useContext } from 'react';
 import {useHistory} from 'react-router-dom';
-
+import Card from './Card/Card';
+import DataContext from './DataContext';
 
 const Home = () => {
     const history = useHistory();
+    const data = useContext(DataContext);
     const handleTopBatsmen = () => {
         history.push('/orange-cap')
     }
@@ -55,13 +55,14 @@ const Home = () => {
         return allData;
     })
     return(
-        <>
+        <div>
+        
             <button onClick={handleTopBatsmen}>Orange Cap</button>
             <button onClick={handleTopWicketTaker}>Purple Cap</button>
             <button onClick={handleMostSixers}>Most Sixers</button>
             <Card data={playersData}></Card>
             
-        </>
+        </div>
     )
 }
 
