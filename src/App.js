@@ -3,8 +3,8 @@ import { BrowserRouter as Router} from 'react-router-dom'
 import AppRoutes from './Component/AppRoutes';
 import { DataProvider } from './Component/DataContext';
 import './App.css';
-import data from './data.json';
-
+import playersData from './Utils/calculations';
+const data = playersData;
 function App() {
   return (
     <Router>

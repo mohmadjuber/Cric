@@ -18,3 +18,27 @@
     padding:15px;
     flex-grow: 80%;
 }
+.Delhi {
+    background-color: #2561AE;
+}
+.Mumbai {
+    background-color: #004BA0;
+}
+.Punjab {
+    background-color: #ED1B24;
+}
+.Sunrisers {
+    background-color: #FF822A;
+}
+.Royal {
+    background-color:#EC1C24;
+}
+.Chennai {
+    background-color: #FFFF3C;
+}
+.Kolkata {
+    background-color: #2E0854;
+}
+.Rajasthan {
+    background-color: #EA1985;
+}

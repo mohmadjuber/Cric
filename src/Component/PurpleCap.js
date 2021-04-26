@@ -3,36 +3,28 @@ import NewCard from './Card/NewCard';
 import DataContext from './DataContext';
 const PurpleCap = () => {
     const playersData = useContext(DataContext);
-    console.log("context", playersData);
     let scoresArray = [];
-        const bowlers = playersData.map((player) => {
-            let economy_rate = 0, bowling_avg = 0,total_wickets = 0, total_overs = 0, total_runs_given = 0;
-            const scores = player.performances.map((performance) => {
-                
-                total_wickets += performance.wickets;
-                total_overs += performance.overs;
-                total_runs_given += performance.runs_given;
-                return performance;
-            });
-            economy_rate = isNaN(total_runs_given / (total_overs%10 === 0 ? total_overs : total_overs +( total_overs%10 /6))) ? "-" : (total_runs_given / total_overs).toFixed(2);
-            bowling_avg = (total_runs_given / total_wickets).toFixed(2);    
+        const bowlers = playersData.map((player, index) => {
             scoresArray.push({
-                name : player.name, 
-                team : player.team,
-                wickets : total_wickets,
-                bowling_avg : bowling_avg,
-                economy : economy_rate
+                number : index + 1,
+                name : player[0].name, 
+                team : player[0].team,
+                matches: player[0].matches,
+                wickets : player[0].wickets,
+                bowling_avg : player[0].bowlingAvg,
+                economy : player[0].economy
             });
             return player;
         })
         const topBowlers = scoresArray.sort(function(a,b){ 
-           if(a.wickets > b.wickets) return -1;
-           if(a.wickets < b.wickets) return 1;
-           if(a.wickets === b.wickets) {
-               if(a.economy > b.economy) return 1;
-               if(a.economy < b.economy) return -1;
-           }
-           return 0;
+            if(a.wickets === b.wickets) {
+                if(a.economy === b.economy) {return 0}
+                else{
+                    return a.economy > b.economy ? 1 : -1;
+                }
+                
+            }
+            return a.wickets > b.wickets ?  -1 : 1;
         })
         const top10 = topBowlers.slice(0,10);
     return(

@@ -3,14 +3,14 @@ import data from '../../data.json';
 
 const NewCard = (playerData) => {
     return(
-        <div className="player-container">
+        <div className="player-container" >
             {playerData.data.map((player, index) => {
-                console.log("index", index);
                 return (
-                    <div className="player" key={data.id}>
+                    <div className={ player.team ? 'player '+ player.team : 'player'} key={data.id}>
+                        <div className="player-runs">Number: {index + 1}</div>
                         <div className="player-name">Name: {player.name}</div>
                         <div className="player-team">Team: {player.team}</div>
-                        <div className="player-runs">Number: {index + 1}</div>
+                        <div className="player-name">Matches: {player.matches}</div>
                         {player.runs ? <div className="player-runs">Runs: {player.runs}</div> : null}
                         {player.balls ? <div className="player-ball-played">Balls: {player.balls}</div> : null}
                         {player.fours ? <div className="player-fours">Fours: {player.fours}</div> : null}
@@ -20,6 +20,7 @@ const NewCard = (playerData) => {
                         {player.wickets ? <div className="player-sixes">Wickets: {player.wickets}</div> : null}
                         {player.bowling_avg ? <div className="player-sixes">Avg: {player.bowling_avg}</div> : null}
                         {player.economy ? <div className="player-sixes">Economy Rate: {player.economy}</div> : null}
+                        {player.catches ? <div className="player-sixes">Catches: {player.catches}</div> : null}
                     </div>
                 )
             })}
