@@ -934,9 +934,22 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 6,
+            "ball_played": 9,
+            "fours": 0,
+            "sixes": 0,
+            "overs": 4,
+            "maiden": 0,
+            "runs_given": 28,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 3,
+    "no_of_innings": 4,
     "no_of_notout": 0,
     "30+": 0,
     "50+": 0,
@@ -1010,9 +1023,22 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 12,
+            "ball_played": 11,
+            "fours": 2,
+            "sixes": 0,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 5,
+    "no_of_innings": 6,
     "no_of_notout": 1,
     "30+": 2,
     "50+": 1,
@@ -1047,11 +1073,24 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 3,
+            "runs": 31,
+            "ball_played": 22,
+            "fours": 0,
+            "sixes": 2,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 2,
+    "no_of_innings": 3,
     "no_of_notout": 0,
-    "30+": 0,
+    "30+": 1,
     "50+": 0,
     "100+": 0
 },
@@ -1123,9 +1162,22 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 25,
+            "ball_played": 20,
+            "fours": 1,
+            "sixes": 2,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 4,
+    "no_of_innings": 5,
     "no_of_notout": 0,
     "30+": 0,
     "50+": 2,
@@ -1199,12 +1251,25 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 75,
+            "ball_played": 42,
+            "fours": 3,
+            "sixes": 5,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 3,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 4,
-    "no_of_notout": 1,
+    "no_of_innings": 5,
+    "no_of_notout": 2,
     "30+": 1,
-    "50+": 1,
+    "50+": 2,
     "100+": 0
 },
 {
@@ -1388,6 +1453,19 @@
             "wickets": 0,
             "catches": 2,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": "-",
+            "ball_played": "-",
+            "fours": 0,
+            "sixes": 0,
+            "overs": 4,
+            "maiden": 0,
+            "runs_given": 32,
+            "wickets": 1,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
     "no_of_innings": 4,
@@ -1462,6 +1540,19 @@
             "maiden": 0,
             "runs_given": 51,
             "wickets": 3,
+            "catches": 0,
+            "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": "-",
+            "ball_played": "-",
+            "fours": 0,
+            "sixes": 0,
+            "overs": 4,
+            "maiden": 0,
+            "runs_given": 37,
+            "wickets": 2,
             "catches": 0,
             "run_outs": 0
         }
@@ -1540,6 +1631,19 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": "-",
+            "ball_played": "-",
+            "fours": 0,
+            "sixes": 0,
+            "overs": 4,
+            "maiden": 0,
+            "runs_given": 44,
+            "wickets": 1,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
     "no_of_innings": 2,
@@ -1616,6 +1720,19 @@
             "wickets": 1,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": "-",
+            "ball_played": "-",
+            "fours": 0,
+            "sixes": 0,
+            "overs": 2,
+            "maiden": 0,
+            "runs_given": 10,
+            "wickets": 0,
+            "catches": 1,
+            "run_outs": 0
         }
     ],
     "no_of_innings": 1,
@@ -1679,9 +1796,22 @@
             "wickets": 0,
             "catches": 1,
             "run_outs": 0
+        },
+        {
+            "match": 5,
+            "runs": 17,
+            "ball_played": 14,
+            "fours": 3,
+            "sixes": 0,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 4,
+    "no_of_innings": 5,
     "no_of_notout": 1,
     "30+": 1,
     "50+": 0,
@@ -1731,6 +1861,30 @@
     ],
     "no_of_innings": 1,
     "no_of_notout": 0,
+    "30+": 0,
+    "50+": 0,
+    "100+": 0
+},
+{
+    "id": "player-rcb-15",
+    "name": "Daniel Sams",
+    "team": "Royal Challengers Banglore",
+    "performances": [{
+            "match": 1,
+            "runs": 3,
+            "ball_played": 2,
+            "fours": 0,
+            "sixes": 0,
+            "overs": 2,
+            "maiden": 0,
+            "runs_given": 15,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
+        }
+    ],
+    "no_of_innings": 1,
+    "no_of_notout": 1,
     "30+": 0,
     "50+": 0,
     "100+": 0
@@ -2661,9 +2815,22 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 21,
+            "ball_played": 18,
+            "fours": 3,
+            "sixes": 0,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 5,
+    "no_of_innings": 6,
     "no_of_notout": 0,
     "30+": 1,
     "50+": 2,
@@ -2737,9 +2904,22 @@
             "wickets": 0,
             "catches": 1,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 6,
+            "ball_played": 7,
+            "fours": 1,
+            "sixes": 0,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 5,
+    "no_of_innings": 6,
     "no_of_notout": 0,
     "30+": 1,
     "50+": 2,
@@ -2814,12 +2994,25 @@
             "catches": 0,
             "run_outs": 0,
             "stumping": 1
+        },
+        {
+            "match": 6,
+            "runs": 58,
+            "ball_played": 48,
+            "fours": 6,
+            "sixes": 0,
+            "overs": 0,
+            "maiden": 0,
+            "runs_given": 0,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 5,
-    "no_of_notout": 1,
+    "no_of_innings": 6,
+    "no_of_notout": 2,
     "30+": 1,
-    "50+": 1,
+    "50+": 2,
     "100+": 0
 },
 {
@@ -2890,9 +3083,22 @@
             "wickets": 0,
             "catches": 1,
             "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": 22,
+            "ball_played": 17,
+            "fours": 3,
+            "sixes": 0,
+            "overs": 1,
+            "maiden": 0,
+            "runs_given": 23,
+            "wickets": 0,
+            "catches": 0,
+            "run_outs": 0
         }
     ],
-    "no_of_innings": 4,
+    "no_of_innings": 5,
     "no_of_notout": 2,
     "30+": 0,
     "50+": 0,
@@ -2940,12 +3146,25 @@
         "wickets": 0,
         "catches": 0,
         "run_outs": 0
+    },
+    {
+        "match": 4,
+        "runs": 53,
+        "ball_played": 25,
+        "fours": 2,
+        "sixes": 4,
+        "overs": 0,
+        "maiden": 0,
+        "runs_given": 0,
+        "wickets": 0,
+        "catches": 0,
+        "run_outs": 0
     }
 ],
-    "no_of_innings": 3,
-    "no_of_notout": 2,
+    "no_of_innings": 4,
+    "no_of_notout": 3,
     "30+": 0,
-    "50+": 0,
+    "50+": 1,
     "100+": 0
 },
 {
@@ -3190,6 +3409,19 @@
         "wickets": 1,
         "catches": 0,
         "run_outs": 0
+    },
+    {
+        "match": 4,
+        "runs": "-",
+        "ball_played": "-",
+        "fours": 0,
+        "sixes": 0,
+        "overs": 3,
+        "maiden": 0,
+        "runs_given": 27,
+        "wickets": 1,
+        "catches": 0,
+        "run_outs": 0
     }
 ],
     "no_of_innings": 0,
@@ -3264,6 +3496,19 @@
             "maiden": 0,
             "runs_given": 34,
             "wickets": 3,
+            "catches": 0,
+            "run_outs": 0
+        },
+        {
+            "match": 6,
+            "runs": "-",
+            "ball_played": "-",
+            "fours": 0,
+            "sixes": 0,
+            "overs": 4,
+            "maiden": 0,
+            "runs_given": 24,
+            "wickets": 1,
             "catches": 0,
             "run_outs": 0
         }
@@ -3379,6 +3624,19 @@
             "wickets": 0,
             "catches": 0,
             "run_outs": 1
+        },
+        {
+            "match": 5,
+            "runs": "-",
+            "ball_played": "-",
+            "fours": 0,
+            "sixes": 0,
+            "overs": 4,
+            "maiden": 0,
+            "runs_given": 38,
+            "wickets": 1,
+            "catches": 1,
+            "run_outs": 0
         }
     ],
     "no_of_innings": 1,
@@ -3429,10 +3687,23 @@
         "wickets": 0,
         "catches": 0,
         "run_outs": 0
+    },
+    {
+        "match": 4,
+        "runs": 4,
+        "ball_played": 5,
+        "fours": 1,
+        "sixes": 0,
+        "overs": 0,
+        "maiden": 0,
+        "runs_given": 0,
+        "wickets": 0,
+        "catches": 2,
+        "run_outs": 0
     }
 
 ],
-    "no_of_innings": 3,
+    "no_of_innings": 4,
     "no_of_notout": 1,
     "30+": 2,
     "50+": 0,
@@ -3477,7 +3748,45 @@
         "wickets": 2,
         "catches": 0,
         "run_outs": 0
-    }],
+    },
+    {
+        "match": 2,
+        "runs": "-",
+        "ball_played": "-",
+        "fours": 0,
+        "sixes": 0,
+        "overs": 4,
+        "maiden": 0,
+        "runs_given": 33,
+        "wickets": 1,
+        "catches": 0,
+        "run_outs": 0
+    }
+],
+    "no_of_innings": 0,
+    "no_of_notout": 0,
+    "30+": 0,
+    "50+": 0,
+    "100+": 0
+},
+{
+    "id": "player-dd-17",
+    "name": "Ishant Sharma",
+    "team": "Delhi Capitals",
+    "performances": [{
+        "match": 1,
+        "runs": "-",
+        "ball_played": "-",
+        "fours": 0,
+        "sixes": 0,
+        "overs": 4,
+        "maiden": 1,
+        "runs_given": 26,
+        "wickets": 1,
+        "catches": 0,
+        "run_outs": 0
+    }
+],
     "no_of_innings": 0,
     "no_of_notout": 0,
     "30+": 0,
