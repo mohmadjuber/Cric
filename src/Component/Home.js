@@ -1,11 +1,9 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import {useHistory} from 'react-router-dom';
-import Card from './Card/Card';
-import DataContext from './DataContext';
 
 const Home = () => {
     const history = useHistory();
-    const data = useContext(DataContext);
+    
     const handleTopBatsmen = () => {
         history.push('/orange-cap')
     }
@@ -24,7 +22,9 @@ const Home = () => {
     const handleMostCatches = () => {
         history.push('/most-catches')
     }
-    
+    const handlePointTable = () => {
+        history.push('/points-table')
+    }
     return(
         <div>
         
@@ -41,7 +41,9 @@ const Home = () => {
             <button onClick={handleTeams('Delhi Capitals')}>Delhi Capitals</button>
             <button onClick={handleTeams('Kolkata Knight Riders')}>Kolkata Knight Riders</button>
             <button onClick={handleTeams('Sunrisers Hyderabad')}>Sunrisers Hyderabad</button>
-            
+            <button onClick={handleTeams('Lucknow Super Giants')}>Lucknow Super Giants</button>
+            <button onClick={handleTeams('Gujarat Titans')}>Gujarat Titans</button>
+            <button onClick={handlePointTable}>Points Table</button>
         </div>
     )
 }

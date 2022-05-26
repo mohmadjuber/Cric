@@ -4,6 +4,7 @@ import DataContext from './DataContext';
 const PurpleCap = () => {
     const playersData = useContext(DataContext);
     let scoresArray = [];
+        // eslint-disable-next-line no-unused-vars
         const bowlers = playersData.map((player, index) => {
             scoresArray.push({
                 number : index + 1,
@@ -23,9 +24,12 @@ const PurpleCap = () => {
                     return a.economy > b.economy ? 1 : -1;
                 }
                 
+            } else {
+                
+            return a.wickets > b.wickets ? -1 : 1;
             }
-            return a.wickets > b.wickets ?  -1 : 1;
         })
+        console.log('top bowsera', topBowlers);
         const top10 = topBowlers.slice(0,10);
     return(
         <div style={{background : 'purple'}}><h1>Purple Cap</h1>

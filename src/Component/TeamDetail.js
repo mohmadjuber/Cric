@@ -1,14 +1,14 @@
-import React, { useContext, useQuery } from 'react';
+import React, { useContext} from 'react';
 import DataContext from './DataContext';
 import NewCard from './Card/NewCard';
-import { useHistory } from 'react-router';
 
 const TeamDetail = () => {
     const data = useContext(DataContext);
     const teamName = window.location.pathname.split("/")[1].replace(/%20/g, " ");
-    console.log("team dekh", teamName);
     let teamArray =[]
     const team = data.filter((player) => {return player[0].team === teamName});
+    console.log('team', data);
+    // eslint-disable-next-line no-unused-vars
     const teamArrayMap = team.map((player) => {
         teamArray.push({
             name : player[0].name, 
@@ -25,15 +25,17 @@ const TeamDetail = () => {
             economy : player[0].economy,
             runs_given : player[0].runsGiven,
             bowling_avg: player[0].bowlingAvg,
-            catches: player[0].catches
+            dismissal: player[0].catches + player[0].run_outs
 
         });
         
         return true;
     })
+    
     const sortedTeam = teamArray.sort(function(a,b){
         return b.runs - a.runs;
     })
+    
     return(<NewCard data={sortedTeam}></NewCard>)
 }
 

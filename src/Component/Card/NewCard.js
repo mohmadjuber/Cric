@@ -1,5 +1,5 @@
 import '../Card/Card.css';
-import data from '../../data.json';
+import data from '../../data/data-2022.json';
 
 const NewCard = (playerData) => {
     return(
@@ -20,7 +20,7 @@ const NewCard = (playerData) => {
                         {player.wickets ? <div className="player-sixes">Wickets: {player.wickets}</div> : null}
                         {player.bowling_avg ? <div className="player-sixes">Avg: {player.bowling_avg}</div> : null}
                         {player.economy ? <div className="player-sixes">Economy Rate: {player.economy}</div> : null}
-                        {player.catches ? <div className="player-sixes">Catches: {player.catches}</div> : null}
+                        {player.dismissal ? <div className="player-sixes">Dismissal: {player.dismissal}</div> : null}
                     </div>
                 )
             })}

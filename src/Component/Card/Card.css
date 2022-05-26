@@ -16,29 +16,38 @@
     width:80%;
     border:2px solid black;
     padding:15px;
-    flex-grow: 80%;
+    background-size: auto;
+}
+.player-team{
+    color:grey;
 }
 .Delhi {
-    background-color: #2561AE;
+    background: #2561AE;
 }
 .Mumbai {
-    background-color: #004BA0;
+    background: #004BA0;
 }
 .Punjab {
-    background-color: #ED1B24;
+    background: #ED1B24;
 }
 .Sunrisers {
-    background-color: #FF822A;
+    background: #FF822A;
 }
 .Royal {
-    background-color:#EC1C24;
+    background:#EC1C24;
 }
 .Chennai {
-    background-color: #FFFF3C;
+    background: #f9cf01;
 }
 .Kolkata {
-    background-color: #2E0854;
+    background: #2E0854;
 }
 .Rajasthan {
-    background-color: #EA1985;
+    background: #EA1985;
+}
+.Lucknow{
+    background: blue;
+}
+.Gujarat{
+    background: darkblue;
 }

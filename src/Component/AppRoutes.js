@@ -10,6 +10,7 @@ import MostSixers from './MostSixers';
 import MostFours from './MostFours';
 import TeamDetail from './TeamDetail';
 import MostCatches from './MostCatches';
+import PointsTable from './PointsTable';
 const AppRoutes = () => {
     return(
         <>
@@ -28,6 +29,9 @@ const AppRoutes = () => {
                 <Route path='/Delhi Capitals' component= {TeamDetail} />
                 <Route path='/Kolkata Knight Riders' component= {TeamDetail} />
                 <Route path='/Sunrisers Hyderabad' component= {TeamDetail} />
+                <Route path='/Lucknow Super Giants' component= {TeamDetail} />
+                <Route path='/Gujarat Titans' component= {TeamDetail} />
+                <Route path='/points-table' component= {PointsTable} />
                 
                 <Route component= {Home} />
             </Switch>

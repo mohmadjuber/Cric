@@ -1,17 +1,20 @@
 
-import data from '../data.json';
+import data from '../data/data-2022.json';
 
 const playersData = data.map( (data) => {
   let allData = [];
   let total_runs = 0, total_ball_played = 0, total_fours = 0, total_sixes = 0;
   let total_overs = 0, total_wickets = 0, total_runs_given = 0, strike_rate = 0, total_catches = 0;
-  let bat_avg = 0, economy = 0, bowl_avg = 0;
+  let bat_avg = 0, economy = 0, bowl_avg = 0, total_runouts = 0, total_stumping =0;
+  // eslint-disable-next-line no-unused-vars
   const performanceData = data.performances.map((performance) => {
       data.no_of_innings > 0 ? total_runs = total_runs + (performance.runs === '-' ? performance.runs = 0 : performance.runs) : total_runs = 0;
       data.no_of_innings > 0 ? total_ball_played = total_ball_played + (performance.ball_played === '-' ? performance.ball_played = 0 : performance.ball_played) : total_ball_played = 0;
       total_fours = total_fours + performance.fours;
       total_sixes += performance.sixes;
       total_catches += performance.catches;
+      total_runouts += performance.run_outs;
+      total_stumping += performance.stumping ? performance.stumping : 0;
       total_overs = total_overs%1 === 0 ? 
           total_overs + performance.overs : 
           parseInt(Math.floor(total_overs) + Math.floor(performance.overs)) + 
@@ -41,7 +44,9 @@ const playersData = data.map( (data) => {
       economy : economy,
       runsGiven : total_runs_given,
       bowlingAvg: bowl_avg,
-      catches : total_catches
+      catches : total_catches,
+      run_outs : total_runouts,
+      stumping : total_stumping
   });
   return allData;
 })

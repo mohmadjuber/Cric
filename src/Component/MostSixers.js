@@ -16,7 +16,16 @@ const MostSixers = () => {
             return player;
         })
         
-        const mostSixers = scoresArray.sort(function(a,b){ return b.sixes - a.sixes})
+        const mostSixers = scoresArray.sort(function(a,b){ 
+            if(a.sixes === b.sixes) {
+                if(a.matches === b.matches) {return 0;}
+                else {
+                    return a.matches > b.matches ? 1 :-1;
+                }
+            } else {
+                return a.sixes > b.sixes ? -1 : 1;
+            }
+            })
         const top10 = mostSixers.slice(0,10);
     return(
         <div style={{background : 'red'}}><h1>Most Sixers</h1>

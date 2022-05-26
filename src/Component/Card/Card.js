@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Card/Card.css';
-import data from '../../data.json';
+import data from '../../data/data-2022.json';
 
 const Card = (playerData) => {
     return(
